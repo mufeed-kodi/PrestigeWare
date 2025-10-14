@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:prestige_app/core/helper_functions/on_generate_routes.dart';
+import 'features/splash/presentation/views/splash_view.dart';
 
 void main() {
   runApp(const PrestigeWare());
@@ -11,16 +13,10 @@ class PrestigeWare extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'PrestigeWare',
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text(
-            'PrestigeWare'),
-          ),
-          
-      )
-      ,
-    
+      onGenerateRoute: onGenerateRoutes,
+      initialRoute: SplashView.routeName,
+      
     );
   }
 }
+  
