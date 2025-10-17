@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:prestige_app/core/utils/app_colors.dart';
 import 'package:prestige_app/core/utils/app_images.dart';
 import 'package:prestige_app/features/on_boarding/presentation/views/widgets/page_view_item.dart';
 

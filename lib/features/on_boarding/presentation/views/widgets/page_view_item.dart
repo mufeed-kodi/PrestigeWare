@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:prestige_app/core/utils/app_colors.dart';
+import 'package:prestige_app/constants.dart';
+import 'package:prestige_app/core/services/shared_preferences_singleton.dart';
 import 'package:prestige_app/features/auth/presentation/views/login_view.dart';
 
 class PageviewItem extends StatelessWidget {
@@ -48,6 +49,7 @@ class PageviewItem extends StatelessWidget {
                 visible: isVisible,
                 child: GestureDetector(
                   onTap: () {
+                    Prefs.setBool(kSeenOnboarding, true);
                     Navigator.of(context).pushReplacementNamed(
                       LoginView.routeName,
                     );
