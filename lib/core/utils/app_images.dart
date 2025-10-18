@@ -6,6 +6,18 @@ class Assets {
   /// assets/images/app_name.svg
   static const String imagesAppName = "assets/images/app_name.svg";
 
+  /// Assets for imagesCheckIcon
+  /// assets/images/check_icon.svg
+  static const String imagesCheckIcon = "assets/images/check_icon.svg";
+
+  /// Assets for imagesFbIcon
+  /// assets/images/fb_icon.svg
+  static const String imagesFbIcon = "assets/images/fb_icon.svg";
+
+  /// Assets for imagesGoogleIcon
+  /// assets/images/google_icon.svg
+  static const String imagesGoogleIcon = "assets/images/google_icon.svg";
+
   /// Assets for imagesIcon
   /// assets/images/icon.svg
   static const String imagesIcon = "assets/images/icon.svg";
@@ -30,10 +42,6 @@ class Assets {
   /// assets/images/page_view_item1_image.svg
   static const String imagesPageViewItem1Image = "assets/images/page_view_item1_image.svg";
 
-  /// Assets for imagesPageViewItem1Image0
-  /// assets/images/page_view_item1_image0.svg
-  static const String imagesPageViewItem1Image0 = "assets/images/page_view_item1_image0.svg";
-
   /// Assets for imagesPageViewItem2BGimage
   /// assets/images/page_view_item2_BGimage.svg
   static const String imagesPageViewItem2BGimage = "assets/images/page_view_item2_BGimage.svg";
@@ -53,5 +61,9 @@ class Assets {
   /// Assets for imagesWords
   /// assets/images/words.png
   static const String imagesWords = "assets/images/words.png";
+
+  /// Assets for imagesXIcon
+  /// assets/images/x_icon.svg
+  static const String imagesXIcon = "assets/images/x_icon.svg";
 }
 

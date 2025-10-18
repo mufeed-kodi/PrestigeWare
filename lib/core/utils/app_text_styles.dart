@@ -38,6 +38,11 @@ abstract class AppTextStyles {
     fontSize: 13,
   );
 
+  static const TextStyle styleSemiBold14 = TextStyle(
+    fontWeight: FontWeight.w600,
+    fontSize: 14,
+  );
+  
   static const TextStyle styleSemiBold16 = TextStyle(
     fontWeight: FontWeight.w600,
     fontSize: 16,
