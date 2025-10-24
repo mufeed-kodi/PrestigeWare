@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "869349642295",
+    "project_id": "prestigeware-8ea32",
+    "storage_bucket": "prestigeware-8ea32.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869349642295:android:46d2c17832a3868db32fb2",
+        "android_client_info": {
+          "package_name": "com.example.prestige_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABY3Q7JACs0hxyvhumsPQlEHQ9_F-IdN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

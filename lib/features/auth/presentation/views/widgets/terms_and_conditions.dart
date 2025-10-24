@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:prestige_app/constants.dart';
 import 'package:prestige_app/core/utils/app_colors.dart';
 import 'package:prestige_app/core/utils/app_text_styles.dart';
 import 'package:prestige_app/features/auth/presentation/views/widgets/custom_checkbox.dart';
 
 class TermsAndConditions extends StatefulWidget {
-  const TermsAndConditions({super.key});
+  const TermsAndConditions({super.key, required this.onChanged});
 
+  final ValueChanged<bool> onChanged;
   @override
   State<TermsAndConditions> createState() => _TermsAndConditionsState();
 }
@@ -20,6 +20,7 @@ class _TermsAndConditionsState extends State<TermsAndConditions> {
         onChecked: (value) {
           setState(() {
             isTermsAccepted = value;
+            widget.onChanged(value);
           });
         },
         isChecked: isTermsAccepted,
